@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div class="min-h-screen background-header-bg ">
+    <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-7 ">
+      <nav
+        class="relative max-w-9xl w-full flex flex-wrap lg:grid lg:grid-cols-12 basis-full items-center px-4 md:px-6 lg:px-8 mx-auto">
+        <div class="lg:col-span-3 flex items-center">
+          <a class="flex-none rounded-xl text-xl text-white inline-flex space-x-2 font-semibold focus:outline-hidden focus:opacity-80"
+            href="" aria-label="Preline">
+            <div>
+              <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt=".."
+                class="h-10 rounded-full">
+            </div>
+            <h1 class="items-center flex lg:text-2xl text-sm md:text-md">
+              My Portfolio
+            </h1>
+          </a>
+          <div class="ms-1 sm:ms-2"></div>
+        </div>
+        <div class="flex items-center gap-x-1 lg:gap-x-2 ms-auto py-1 lg:ps-6 lg:order-3 lg:col-span-3">
+          <button type="button"
+            class="py-2 px-3 inline-flex items-center gap-x-2 lg:text-xl text-sm md:text-md font-normal text-nowrap rounded-xl border border-transparent text-white hover:bg-blue-400 focus:outline-hidden transition disabled:opacity-50 disabled:pointer-events-none">
+            <h1 class="lg:block hidden">Git Hub Account</h1>
+            <div>
+              <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt=".."
+                class="h-10 rounded-full">
+            </div>
+          </button>
+          <div class="lg:hidden">
+            <button type="button"
+              class="hs-collapse-toggle size-9.5 flex justify-center items-center text-sm font-semibold rounded-xl border border-gray-200 text-black hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              id="hs-pro-hcail-collapse" aria-expanded="false" aria-controls="hs-pro-hcail"
+              aria-label="Toggle navigation" data-hs-collapse="#hs-pro-hcail">
+              <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" x2="21" y1="6" y2="6" />
+                <line x1="3" x2="21" y1="12" y2="12" />
+                <line x1="3" x2="21" y1="18" y2="18" />
+              </svg>
+              <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="hs-pro-hcail"
+          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full  grow lg:block lg:w-auto lg:basis-auto lg:order-2 lg:col-span-6"
+          aria-labelledby="hs-pro-hcail-collapse">
+          <div
+            class="flex flex-col gap-y-4 gap-x-0 mt-5 lg:flex-row lg:justify-center lg:items-center lg:gap-y-0 lg:gap-x-7 lg:mt-0 ">
+            <div>
+              <a class="relative inline-block text-white focus:outline-hidden before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-yellow-400 dark:text-white"
+                href="#" aria-current="page">Home</a>
+            </div>
+            <div>
+              <a class="inline-block text-white hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                href="#">About</a>
+            </div>
+            <div>
+              <a class="inline-block text-white hover:text-gray-600 focus:outline-hidden focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                href="#">Contact</a>
+            </div>
+            <div
+              class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] md:[--adaptive:adaptive] [--is-collapse:true] md:[--is-collapse:false] ">
+              <button id="hs-header-base-dropdown" type="button"
+                class="hs-dropdown-toggle w-full p-2 flex items-center text-sm text-white focus:outline-hidden dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+                aria-haspopup="menu" aria-expanded="false" aria-label="Dropdown">
+                <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24"
+                  height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m3 10 2.5-2.5L3 5" />
+                  <path d="m3 19 2.5-2.5L3 14" />
+                  <path d="M10 6h11" />
+                  <path d="M10 12h11" />
+                  <path d="M10 18h11" />
+                </svg>
+                More
+                <svg
+                  class="hs-dropdown-open:-rotate-180 md:hs-dropdown-open:rotate-0 duration-300 shrink-0 size-4 ms-auto md:ms-1"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+              <div
+                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 relative w-full md:w-52 hidden z-10 top-full ps-7 md:ps-0 md:bg-white md:rounded-lg md:shadow-md before:absolute before:-top-4 before:start-0 before:w-full before:h-5 md:after:hidden after:absolute after:top-1 after:start-4.5 after:w-0.5 after:h-[calc(100%-4px)] after:bg-gray-100 dark:md:bg-neutral-800 dark:after:bg-neutral-700"
+                role="menu" aria-orientation="vertical" aria-labelledby="hs-header-base-dropdown">
+                <div class="py-1 md:px-1 space-y-0.5">
+                  <div
+                    class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] [--is-collapse:true] md:[--is-collapse:false] relative">
+                    <div
+                      class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 relative md:w-48 hidden z-10 md:mt-2 md:mx-2.5! md:top-0 md:end-full ps-7 md:ps-0 md:bg-white md:rounded-lg md:shadow-md dark:bg-neutral-800 dark:divide-neutral-700 before:hidden md:before:block before:absolute before:-end-5 before:top-0 before:h-full before:w-5 md:after:hidden after:absolute after:top-1 after:start-4.5 after:w-0.5 after:h-[calc(100%-4px)] after:bg-gray-100 dark:md:bg-neutral-800 dark:after:bg-neutral-700"
+                      role="menu" aria-orientation="vertical" aria-labelledby="hs-header-base-dropdown-sub">
+                      <div class="p-1 space-y-1">
+                        <a class="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:bg-neutral-700 dark:focus:text-neutral-300"
+                          href="#">
+                          History
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="grid grid-cols-2 absolute mx-auto h-1/2 w-full">
+      <div class="flex mx-12 relative">
+        <img src="images/pumades.png" alt="puma" class="h-90 absolute -bottom-1 left-[190px]">
+      </div>
+      <div class="flex justify-center ml-15">
+        <img src="images/nikedes.png" alt="nike" class="h-25 absolute">
+      </div>
+      <div class="flex relative">
+        <img src="images/test.png" alt="test" class="h-60 absolute -left-20 top-100">
+      </div>
+      <div class="flex justify-end mx-12 relative">
+        <img src="images/coffeedes.png" alt="coffee" class="h-140 absolute top-10">
+      </div>
+    </div>
+    <section>
+      <div class="grid grid-cols-1 lg:grid-cols-2 lg:mx-30 mx-0 inset-0 relative mt-17">
+        <div
+          class="flex flex-col font-bold text-sm lg:text-[5.5rem] md:text-xl text-center lg:text-start lg:w-1 w-full lg:mx-35 mx-0 text-white lg:-space-y-5 mb-3">
+          <h1>UI</h1>
+          <span>UX</span>
+          <span>&</span>
+          <span class="font-bold lg:tracking-[0.2rem] tracking-[0.1rem]">WEB DEVELOPER</span>
+        </div>
+        <div class="flex border border-blue-500 lg:w-[850px] md:w-[600px] w-[20rem] lg:mx-[24rem] mx-auto lg:rounded-[6rem] rounded-[3rem] lg:absolute bg-gray-900 relative grid grid-cols-1 lg:grid-cols-2 p-0 lg:p-5">
+          <div class="flex flex-col text-[10px] lg:text-[1rem] lg:space-y-6 space-y-2 mx-10 my-7">
+            <h1 class="text-white font-bold lg:text-xl text-md">Hi, I'm Von Joriel Gulmatico</h1>
+            <p class="text-white font-bold"> A <span class="text-blue-400">Web Developer</span> and <span
+                class="text-blue-400">UI/UX Designer</span>
+              I'm Driven by a passion for creating seamless and engaging digital experiences, I blend technical skills
+              and creative design thinking to develop user-centered solutions. Explore the projects below to see how I
+              transform ideas into impactful web applications.</p>
+            <button
+              class="border border-blue-400 rounded cursor-pointer rounded-4xl p-2 lg:mt-7 mt-2 hover:bg-blue-400 transition focus:bg-blue-300">
+              <a href="#" class="text-white font-bold ">hire me!</a>
+            </button>
+          </div>
+          <div class="flex lg:justify-end justify-center">
+            <img src="images/profile.png" alt="" class=" h-40 lg:h-100 md:h-70">
+          </div>
+        </div>
+      </div>
+      <div class="flex relative w-full max-w-full justify-center lg:py-10 lg:mt-20 md:mt-20 md:py-20 mt-4">
+        <span class="bg-white h-1 flex w-1/3 absolute -bottom-0 rounded-xl"></span>
+      </div>
+    </section>
+  </div>
+  <div id="bg-color">
+    <div class=" min-h-screen">
+    </div>
+  </div>
+</body>
+
+</html>
